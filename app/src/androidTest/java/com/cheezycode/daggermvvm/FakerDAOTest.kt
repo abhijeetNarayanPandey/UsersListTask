@@ -1,11 +1,6 @@
 package com.cheezycode.daggermvvm
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import androidx.room.Room
-import androidx.test.core.app.ApplicationProvider
-import com.cheezycode.daggermvvm.db.FakerDAO
-import com.cheezycode.daggermvvm.db.FakerDB
-import com.cheezycode.daggermvvm.models.Product
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import kotlinx.coroutines.test.runTest
